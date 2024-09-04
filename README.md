@@ -8,10 +8,24 @@ This project is a small simulation of [Conway's Game of Life](https://en.wikiped
 - **Clear Grid:** Press the `c` key to clear the grid.
 - **Start Simulation:** Press the `space` key to start the simulation.
 
-## Execution
+## Installation
+
+Run this command:
+```
+pip install -r requirements.txt
+```
+while in the directory folder.
+
+NOTE: Python 3+ required.
+
+## Usage
 
 To start the program start the main.py in any IDE or run the command:
 
 ```sh
 python main.py
 ```
+
+## Example images
+
+
