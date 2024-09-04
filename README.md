@@ -28,4 +28,6 @@ python main.py
 
 ## Example images
 
+Simulation:  
+![conway simulation](https://github.com/user-attachments/assets/2741cc10-af9e-4cc6-8fcd-edf075b5fa7a)
 
