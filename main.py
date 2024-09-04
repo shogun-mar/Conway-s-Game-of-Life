@@ -3,7 +3,7 @@ from random import randrange
 
 # Constants
 TILE_SIZE = 15
-WIDTH, HEIGHT = TILE_SIZE * 100, TILE_SIZE * 50
+WIDTH, HEIGHT = TILE_SIZE * 50, TILE_SIZE * 50
 GRID_WIDTH, GRID_HEIGHT = WIDTH // TILE_SIZE, HEIGHT // TILE_SIZE
 PLACEMENT_PHASE_FPS = 60 #Faster FPS for the placement phase (for mouse drag input to work better)
 SIMULATION_FPS = 10
@@ -16,7 +16,7 @@ playing_simulation = False
 
 # Set up pygame
 pygame.init()
-screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Conway's Game of Life")
 clock = pygame.time.Clock()
 
